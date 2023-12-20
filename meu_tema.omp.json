@@ -42,30 +42,30 @@
             "revert_icon": "\uf0e2 ",
             "tag_icon": "\uf412 "
           },
-          "powerline_symbol": "\ue0b4",
+          "trailing_diamond": "\ue0b4",
           "template": " {{ .HEAD }}",
           "type": "git"
         },
         {
           "background": "#FFDE57",
           "foreground": "#111111",
-          "powerline_symbol": "\ue0b4",
           "properties": {
             "display_mode": "files",
             "fetch_virtual_env": false
           },
-          "style": "powerline",
+          "style": "diamond",
+          "trailing_diamond": "\ue0b4",
           "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
           "type": "python"
         },
         {
           "background": "#8ED1F7",
           "foreground": "#111111",
-          "powerline_symbol": "\ue0b4",
+          "trailing_diamond": "\ue0b4",
           "properties": {
             "fetch_version": true
           },
-          "style": "powerline",
+          "style": "diamond",
           "template": " \ue626 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
           "type": "go"
         },
@@ -79,7 +79,6 @@
             "style": "roundrock",
             "threshold": 0
           },
-          "powerline_symbol": "\ue0b4",
           "template": "{{ .FormattedMs }}",
           "type": "executiontime"
         }
